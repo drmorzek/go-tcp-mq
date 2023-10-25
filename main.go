@@ -25,7 +25,7 @@ type Client struct {
 }
 
 var users = map[string]string{}
-var usersFile = "users"
+var usersFile = "users.db"
 
 var criptoKey = []byte("a very very very very secret key")
 
